@@ -1,0 +1,56 @@
+body{        
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+    width: 99%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+#icon {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#header {
+    font-size: 32px;
+    
+}
+
+#menu {
+    float: right;
+}
+
+#box {
+    width: 20%;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#ft {
+    padding: 7px 25px;
+
+}
